@@ -7,13 +7,13 @@
 // Bring in gtest
 #include <gtest/gtest.h>
 
-// Declare a test
+// Declare a test and describe it
 TEST(TestAlgo, testEq)
 {
         EXPECT_EQ("hello world 45", text_count(45));
 }
 
-// Declare another test
+// Declare another test and describe it
 TEST(TestAlgo, testTrue)
 {
         EXPECT_TRUE(strcmp("hello world 45", text_count(45).c_str())==0);
